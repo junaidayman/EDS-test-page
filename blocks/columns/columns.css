@@ -19,6 +19,15 @@
   display: block;
 }
 
+/* custom styles for left large column */
+.columns.leftlargecolumn > div > div:first-child {
+    flex: 2;
+    background-color: #f4f4f2;
+}
+.columns.leftlargecolumn > div > div:last-child {
+    flex: 1;
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
